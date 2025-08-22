@@ -1,0 +1,35 @@
+[project]
+name = "gulls_astrometry"
+version = "0.1.0"
+description = "A parsing module and script for adding astrometry to gulls lightcurve files."
+authors = [
+    { name="Amber Malpas", email="malpas.1@osu.edu" }
+    { name="Gregory Costa Cuautle", email="costa.130@buckeyemail.osu.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.21.0",
+    "requests>=2.25.0",
+    "pandas>=1.5.0",
+    "tables>=3.7.0"  # For HDF5 support in pandas
+]
+
+[project.urls]
+Homepage = "https://github.com/AmberLee2427/gulls_astrometry"
+Repository = "https://github.com/AmberLee2427/gulls_astrometry"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest>=7.0.0".
+    "pytest-cov>=4.0.0",
+    "pytest-mock>=3.10.0"
+]
+
+
