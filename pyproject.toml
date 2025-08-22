@@ -13,7 +13,10 @@ dependencies = [
     "numpy>=1.21.0",
     "requests>=2.25.0",
     "pandas>=1.5.0",
-    "tables>=3.7.0"  # For HDF5 support in pandas
+    "tables>=3.7.0",  # For HDF5 support in pandas
+    "astropy",
+    "matplotlib",
+    "GCMicrolensing"
 ]
 
 [project.urls]
